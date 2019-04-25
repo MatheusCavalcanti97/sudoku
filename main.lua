@@ -41,8 +41,8 @@ for i = 1, 9, 1 do
 
       -- LINHA 1 COM A MATRIZ 1,2,3
         
-        superMatriz[1][1] = matriz1Completa[1][1]
-        superMatriz[1][2] = matriz1[1][2]
+        superMatriz[1][1] = matriz1[1][1]
+        superMatriz[1][2] = matriz1Completa[1][2]
         superMatriz[1][3] = matriz1[1][3]
 
         superMatriz[1][4] = matriz2[1][1]
@@ -50,13 +50,13 @@ for i = 1, 9, 1 do
         superMatriz[1][6] = matriz2Completa[1][3]
 
         superMatriz[1][7] = matriz3[1][1]
-        superMatriz[1][8] = matriz3Completa[1][2]
+        superMatriz[1][8] = matriz3[1][2]
         superMatriz[1][9] = matriz3[1][3]
 
       -- LINHA 2 COM A MATRIZ 1,2,3
 
-        superMatriz[2][1] = matriz1[2][1]
-        superMatriz[2][2] = matriz1Completa[2][2]
+        superMatriz[2][1] = matriz1Completa[2][1]
+        superMatriz[2][2] = matriz1[2][2]
         superMatriz[2][3] = matriz1[2][3]
 
         superMatriz[2][4] = matriz2Completa[2][1]
@@ -70,7 +70,7 @@ for i = 1, 9, 1 do
       -- LINHA 3 COM A MATRIZ 1,2,3
 
         superMatriz[3][1] = matriz1[3][1]
-        superMatriz[3][2] = matriz1[3][2]
+        superMatriz[3][2] = matriz1Completa[3][2]
         superMatriz[3][3] = matriz1[3][3]
 
         superMatriz[3][4] = matriz2[3][1]
@@ -87,12 +87,12 @@ for i = 1, 9, 1 do
         superMatriz[4][2] = matriz4[1][2]
         superMatriz[4][3] = matriz4[1][3]
 
-        superMatriz[4][4] = matriz5[1][1]
+        superMatriz[4][4] = matriz5Completa[1][1]
         superMatriz[4][5] = matriz5[1][2]
         superMatriz[4][6] = matriz5[1][3]
 
         superMatriz[4][7] = matriz6[1][1]
-        superMatriz[4][8] = matriz6[1][2]
+        superMatriz[4][8] = matriz6Completa[1][2]
         superMatriz[4][9] = matriz6[1][3]
 
         -- LINHA 5 COM A MATRIZ 4,5,6
@@ -126,14 +126,14 @@ for i = 1, 9, 1 do
         -- LINHA 7 COM A MATRIZ 7,8,9
 
         superMatriz[7][1] = matriz7[1][1]
-        superMatriz[7][2] = matriz7[1][2]
+        superMatriz[7][2] = matriz7Completa[1][2]
         superMatriz[7][3] = matriz7[1][3]
 
         superMatriz[7][4] = matriz8[1][1]
         superMatriz[7][5] = matriz8[1][2]
-        superMatriz[7][6] = matriz8[1][3]
+        superMatriz[7][6] = matriz8Completa[1][3]
 
-        superMatriz[7][7] = matriz9[1][1]
+        superMatriz[7][7] = matriz9Completa[1][1]
         superMatriz[7][8] = matriz9[1][2]
         superMatriz[7][9] = matriz9[1][3]
 
@@ -1309,3 +1309,7 @@ elseif opcaoMenu < 0 or opcaoMenu > 1 then
 end
 
 until opcaoMenu == 0;
+
+
+------------------- Inicio do Algoritimo da Matriz  -----------
+------------------- fim Algoritimos Matriz  -------------------
